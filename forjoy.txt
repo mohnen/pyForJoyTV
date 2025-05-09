@@ -1,0 +1,84 @@
+1 ＮＨＫ総合 NHK General
+2 ＮＨＫＥテレ NHK Education TV
+3 日テレ Nippon TV
+4 ＴＢＳ TBS TV
+5 フジテレビ 
+6 テレビ朝日 TV ASAHI
+7 テレビ東京 TV TOKYO
+8 ＴＯＫＹＯ　ＭＸ１ TOKYO MX 1
+9 ＴＯＫＹＯ　ＭＸ2 TOKYO MX 2
+10 ＭＢＳ毎日放送 MBS
+11 ＫＢＳ京都 KBS KYOTO
+12 ＡＢＣテレビ ABC TV
+13 テレビ大阪 TV OSAKA
+14 よみうりテレビ Yomiuri TV
+15 ＮＨＫ ＢＳ NHK BS
+16 ＢＳ日テレ BS Nippon TV
+17 ＢＳ朝日 BS Asahi
+18 ＢＳ-ＴＢＳ BS TBS
+19 ＢＳテレ東 BS Japan
+20 ＢＳフジ 
+21 ＷＯＷＯＷプライム WOWOW Prime
+22 ＷＯＷＯＷライブ WOWOW Live
+23 ＷＯＷＯＷシネマ WOWOW Cinema
+24 スター・チャンネル1 Star Channel 1
+25 スター・チャンネル2 Star Channel 2
+26 スター・チャンネル3 Star Channel 3
+27 ＢＳ１１ BS Eleven
+28 BS12 トゥエルビ TwellV
+29 グリーンチャンネル Green Channel
+30 BSアニマックス BS Animax
+31 J SPORTS 1 J SPORTS 1
+32 J SPORTS 2 J SPORTS 2
+33 J SPORTS 3 J SPORTS 3
+34 J SPORTS 4 J SPORTS 4
+35 BS釣りビジョン BS Fishing Vision
+36 シネフィルWOWWOW Cinefil WOWOW
+37 BS日本映画専門チャンネル BS Japan Movie Channel
+38 ディズニー・チャンネル Disney Channel
+39 東映チャンネル Toei Channel
+40 衛星劇場 Satellite Theater
+41 映画・チャンネルNECO Movie Channel NECO
+42 ムービープラスHD Movie Plus HD
+43 スカイ・A SKY A
+44 GAORA SPORTS GAORA SPORTS
+45 日テレジータス NTV G+
+46 ゴルフネットワークＨＤ Golf Network HD
+47 TAKARAZUKA SKY STAGE TAKARAZUKA SKY STAGE
+48 時代劇専門チャンネルＨＤ ERA Drama HD
+49 ファミリー劇場ＨＤ Family Theatre HD
+50 ホームドラマチャンネル Home Drama Channel
+51 MONDO TV MONDO TV
+52 ＴＢＳチャンネル１ TBS Channel 1
+53 ＴＢＳチャンネル２ TBS Channel 2
+54 テレ朝チャンネル１ TV ASAHI Channel 1
+55 テレ朝チャンネル２ TV ASAHI Channel 2
+56 日テレプラス NTV Plus
+57 チャンネル銀河 Channel Ginga
+58 フジテレビＯＮＥ 
+59 フジテレビＴＷＯ 
+60 フジテレビＮＥＸＴ 
+61 スーパー！ドラマＴＶ ＨＤ Super Drama TV HD
+62 アクションチャンネル ＡＸＮ 海外ドラマ
+63 ミステリーチャンネル AXNミステリー
+64 100%ヒッツ！スペースシャワーTV プラス 100% Hits! Space Shower TV Plus
+65 スペースシャワーTV Space Shower TV
+66 MTV HD MTV HD
+67 MUSIC ON! TV（エムオン!）HD MUSIC ON! TV HD
+68 ミュージック・エア Music Air
+69 歌謡ポップスチャンネル Kayo Pops Channel
+70 キッズステーション HD Kids Station
+71 海外アニメ！カートゥーン ネットワーク Overseas Animation Cartoon Network
+72 アニメシアターX（AT-X) AT-X
+73 ディズニージュニア お子さま向けディズニー番組 Disney Junior
+74 ディスカバリーチャンネル Discovery Channel
+75 アニマルプラネット Animal Planet
+76 ヒストリーチャンネル 日本・世界の歴史＆エンタメ History Channel
+77 ナショナル ジオグラフィック National Geographic Channel
+78 日テレNEWS24 Nippon TV News 24
+79 ＴＢＳニュースバード TBS News Bird
+80 旅チャンネルＨＤ Travel Channel HD
+81 FIGHTING TV サムライ Fighting TV Samurai 
+82 ミュージック・ジャパンTV Music Japan TV
+83 女性チャンネル♪LaLa TV(HD) Lala TV
+84 アイドル専門チャンネルＰｉｇｏｏ Pigoo HD
