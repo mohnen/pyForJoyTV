@@ -88,14 +88,18 @@ if not st.button("Download to Plex", type="primary"):
 
 with st.status("Downloading ...", expanded=True) as status:
     st.write("Retrieving download URL from ForJoyTV...")
-    r=requests.get(f'http://live.forjoytv.com:9083{showpath}=.m3u8', 
-                params={"type":"vod",
-                        "__cross_domain_user": "5bH5vFf8yMiJn0JLtHMpHUs4l460wNt5Pubob49Q7u58ZZWp0+jWukaXgvBjbnjnq7qx8jBPBE1EMsfzwuGon4V4/U353UG7RkI3+yyVByZWR80bP6DAhuvWdriP2q6DYYLDHpGKJc+2ap3orPH9ykuBaM3l7sLnZU2fHNzLb4xa+E/+6N3IrOlL3u7MwTRLVLunjZAjkIia2+Tg+LdiKCRU9cOQQFcR2AUpNHWPcSaLnjcIvN3M9VSZXitvilYuGKF7D+jE+7+NQlr1WuNnXhMTn4k6jAWtNcQMW2VNJZRax1yuzy5R/FS9KtR9ib+FIN0KtXACVN6Z5xz0FfQ5nIHt7W4NwYeGDVrdrtjrq9PqvuQKYbM8uToAD/3gusQeDB/lt3UXGgfHz4Gnfll/YIz/O4G0c1U6pwQ0HyamHZNehSS445j0ZIVbcfpncY6rVoJlxyqdHuxkYKMwD6K4ehcsLpsZa6B+YSOizdAcFXOPXPbnDa5tCTqgiMXKjiGFUK1wdgSDOa04j4WWB7gM+PD3Go1Cq9UzZuIdsDxEV/UHvFzJUo1wIAz+wIbt5DI6Hr2oa6swzuKvdUKckZY8F7e5hs/iSmF1rIbv6scOlF4="},
-                headers={"dnt":"1","host":"live.forjoytv.com:9083", "origin":"http://play.forjoytv.com",
-                            "referer":"http://play.forjoytv.com/", "sec-gpc":"1"}
-                            )
+    url = f'http://live.forjoytv.com:9083{showpath}=.m3u8'
+    
+    r=requests.get(url, 
+                   params={"type":"vod",
+                           "__cross_domain_user": "b9vg1quKwlzKNX5IvrCFh+58AxxjMkF7CF5ju7Xe+vQBE6HUrXii7Q+fv4fVPHpmLf/0jIYxWZEVdO/hnZODU5JFkw0NjYL25yblm2CmdrMoWmzTB788qoywmdrKI0jvFsZd3m5lR8QAFMUMZcfSpx4cs1pdiuJi9j5YYhHy/9EqjiYG7ebbxXON8MeAbUNOiONXX3eVOffQUiv1m+pbMziokaSU2vazFtLzF+BXSDirVnhxf+5jEacNXEMltyDOcxqhkRxDEq8Z2pJQLUPFnWZTi3zrmLI9CBboQ9LuacjUy22TXyYUIpB8K8STRilxLxfQNSKeqZjHRsCevC8qIBkaMoG/sR5AWpVuSTdnX7xNELeBXCwF40GSoyh5vlCjwIm2LClPy3ISNpZA3/o+YhIgdl2WUv9+Ob0huHvQl8TgAb2r81mEWnHVBH/0teU1aGhBowbo+CxC2V2jTyAJv3k9EO8fo59zRxYFPvFZRURsIDYqaaTgZMPOLqKrCJnDxGtj/GeIFZRToput4pOnQmJ6Wdk7VH4/Kd77VXUYeUavJ1LDqLcVjy0D3sB4symarkoCWXUPWFTt3XkCN16A9J44hZBMX7sJ3i5o9bFdHw8="},
+                   headers={"dnt":"1","host":"live.forjoytv.com:9083", 
+                            "origin":"http://play.forjoytv.com",
+                            "referer":"http://play.forjoytv.com/", "sec-gpc":"1"})
+    
+    
     if r.status_code!=200:
-        st.error("Something is wrong")
+        st.error(f"Something is wrong, error code {r.status_code}")
         st.stop()
     
     st.write("Connecting to Downloader...")
@@ -115,7 +119,7 @@ with st.status("Downloading ...", expanded=True) as status:
         "downloadPassword" : None,
         "destinationFolder" : None
         }])
-    #st.write(link)
+    st.write(link)
     
     st.write("Waiting for Downloader to find the file ...")
 
