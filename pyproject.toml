@@ -1,21 +1,22 @@
-[tool.poetry]
+[project]
 name = "pyforjoytv"
 version = "0.1.0"
 description = ""
-authors = ["Markus Mohnen <markus.mohnen@gmail.com>"]
+authors = [{ name = "Markus Mohnen", email = "markus.mohnen@gmail.com" }]
+requires-python = ">=3.14"
 readme = "README.md"
-package-mode = false 
+dependencies = [
+    "requests",
+    "nicegui",
+    "streamlit",
+    "myjdapi",
+    "short-unique-id",
+    "human-readable",
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-requests = "^2.31.0"
-nicegui = "^1.4.2"
-streamlit = "^1.45.0"
-myjdapi = "^1.1.9"
-short-unique-id = "^0.1.2"
-human-readable = "^2.0.0"
-
+[tool.uv]
+package = false
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["uv_build"]
+build-backend = "uv_build"

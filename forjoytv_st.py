@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 
 import myjdapi
-import short_id
+import short_unique_id as short_id
 import human_readable
 
 dbfile = "./forjoytv.db"
